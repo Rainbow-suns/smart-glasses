@@ -1,4 +1,4 @@
-// pages/wxml/index.js
+// pages/login/index.js
 Page({
 
   /**
@@ -7,16 +7,35 @@ Page({
   data: {
 
   },
+  submit: function(e) {
+    wx.request({
+      method:'post',
+      url: 'http://127.0.0.1:3000/',
+      data: e.detail.value,
+      success:function(res){
+        console.log(res)
+      }
+    })
+  },
 
-  /**
+    /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
 
   },
+  
+  OnTap(){
+    wx.redirectTo({
+      url: "/pages/wxml/index"
+    })
+  },
+  
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad(options) {
 
-  primary(){
-    
   },
 
   /**

@@ -1,4 +1,4 @@
-// pages/wxml/index.js
+// pages/video_page/video_interface.js
 Page({
 
   /**
@@ -13,10 +13,6 @@ Page({
    */
   onLoad(options) {
 
-  },
-
-  primary(){
-    
   },
 
   /**

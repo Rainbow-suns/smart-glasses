@@ -2,14 +2,14 @@
 
 <!-- view 中包含了 text 标签 -->
 <view>
-  <text>hello world</text>
-  <image class="glasses" src="./image/glasses.jpg" ></image>
+  <text style="position: relative; left: 275rpx; top: 0rpx">Smart glasses</text>
+  <image class="glasses" src="./image/glasses.jpg"  style="position: relative; left: 68rpx; top: 79rpx"></image>
 </view>
 
 <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
-        disabled="{{disabled}}" bindtap="primary" style="position: relative; left: 0rpx; top: 83rpx"> 开启语音通信 </button>
+        disabled="{{disabled}}" bindtap="primary" style="position: relative; left: 0rpx; top: 83rpx"> Turn on voice communication </button>
 <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
-        disabled="{{disabled}}" bindtap="primary" style="position: relative; left: 0rpx; top: 148rpx"> 开启视频通信 </button>
+        disabled="{{disabled}}" bindtap="primary" style="position: relative; left: 0rpx; top: 148rpx"> Turn on video communication </button>
 
 
 

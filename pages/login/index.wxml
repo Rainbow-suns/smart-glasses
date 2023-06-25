@@ -1,0 +1,12 @@
+<!--pages/login/index.wxml-->
+<view class="login-container">
+  <view class="title">Smart Glassess App</view>
+  <view class="login-box">
+     <label>ID</label>
+     <input placeholder="Please enter your ID number"/>
+     <label>Password</label>
+     <input placeholder="Please enter your Password"/>
+     <button class="login-btn" bindtap="OnTap">Login</button>
+     <view class="three-line">一一一一一Login by other method一一一一一</view>
+     <button class="login-btn"style="background-color:green;" bindgetuserinfo="submit">Wechat Login</button></view>
+  </view>

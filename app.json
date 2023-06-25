@@ -1,13 +1,16 @@
 {
-  "pages":[
+  "pages": [
+    "pages/login/index",
     "pages/wxml/index",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/video_page/video_interface",
+    "pages/audio_page/audio_interface"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Smart glasses",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   }
 }
